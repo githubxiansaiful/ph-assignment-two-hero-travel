@@ -56,7 +56,7 @@ ul {
 }
 section {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 /* Core CSS END */
 
@@ -184,4 +184,12 @@ form {
 }
 .our-popular-image img {
     width: 100%;
+}
+/* Choose Your Destination */
+.our-popular-content h2 {
+    margin-bottom: 24px;
+}
+.our-popular-content p {
+    max-width: 640px;
+    margin: auto;
 }
