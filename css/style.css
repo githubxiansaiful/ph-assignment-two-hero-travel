@@ -186,10 +186,85 @@ form {
     width: 100%;
 }
 /* Choose Your Destination */
-.our-popular-content h2 {
+.our-destination-content h2 {
     margin-bottom: 24px;
 }
-.our-popular-content p {
+.our-destination-content p {
     max-width: 640px;
     margin: auto;
+}
+.our-destination-content {
+    margin-bottom: 48px;
+}
+.destination-single h3 {
+    font-size: 28px;
+    color: #fff;
+    font-weight: bold;
+}
+.destination-item-one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
+    margin-bottom: 24px;
+}
+.destination-single {
+    text-align: center;
+    height: 300px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    border-radius: 16px;
+    background: gray;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+}
+.destination-single.item-maldives {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../images/maldives-img.png), lightgray 50% / cover no-repeat;
+}
+
+.destination-single.item-indonesia {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../images/indonesia-img.png), lightgray 50% / cover no-repeat;
+}
+.destination-item-two {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    margin-bottom: 24px;
+}
+.destination-single.item-srilanka {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../images/srilanka.png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size:cover !important;
+    background-position: center;
+}
+.destination-single.item-north-america {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../images/north-america.png), lightgray 50% / cover no-repeat;
+}
+.destination-single.item-kashmir {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../images/bandarban.png), lightgray 50% / cover no-repeat;
+}
+.destination-item-half-two {
+    overflow: hidden;
+    position: relative;
+}
+.destination-item-half-two .destination-single.item-banglades {
+    width: 40%;
+    float: left;
+}
+.destination-item-half-two {
+    display: flex;
+    column-gap: 24px;
+}
+.destination-item-half-two .destination-single.item-bandarban {
+    width: 60%;
+    float: left;
+}
+.destination-single.destination-single.item-banglades {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../images/bangladesh.png), lightgray 50% / cover no-repeat;
+}
+.destination-single.item-bandarban {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../images/bandarban.png), lightgray 50% / cover no-repeat;
 }
