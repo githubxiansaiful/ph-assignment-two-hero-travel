@@ -15,6 +15,9 @@ a {
     color: #FF5400;
     display: inline-block;
 }
+img {
+    max-width: 100%;
+}
 ul {
     padding-left: 18px;
 }
@@ -61,6 +64,9 @@ section {
 /* Core CSS END */
 
 /* Header CSS */
+span.mobile-menu-button {
+    display: none;
+}
 header#main-header {
     padding: 20px 0;
 }
@@ -396,6 +402,9 @@ header#main-header {
     background-image: url(../images/newsletter-right.png);
     border-radius: 16px;
     position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .nwr-rotated-box {
     padding: 20px;
@@ -433,7 +442,7 @@ footer .footer-content ul li:last-child {
     margin-right: 0px;
 }
 footer .footer-content ul li a {
-    font-size: 24px ;
+    font-size: 35px ;
     color: #131318;
 }
 footer .footer-content p {

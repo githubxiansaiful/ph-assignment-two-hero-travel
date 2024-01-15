@@ -1,0 +1,108 @@
+/* Header CSS */
+@media all and (max-width: 980px) {
+    span.mobile-menu-button {
+        display: block;
+    }
+    ul.nav-list {
+        display: none;
+    }
+    .logo-container img {
+        width: 70%;
+    }
+    span.mobile-menu-button {
+        font-size: 25px;
+        color: #FF5400;
+    }
+    .logo-container {
+        box-sizing: border-box;
+        display: flex;
+    }
+    .logo-container a {
+        line-height: 0;
+    }
+}
+@media all and (max-width: 767px) {
+    .hero-section .hero-section-content {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .form-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 10px;
+        column-gap: 0;
+    }
+    .hero-section-content form {
+        margin-top: 20px;
+    }
+    .our-popular-row {
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0;
+        grid-row-gap: 24px;
+    }
+    .our-popular-image img {
+        width: 100%;
+    }
+    .destination-item-one {
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0;
+        margin-bottom: 24px;
+        grid-row-gap: 24px;
+    }
+    .destination-item-two {
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0;
+        margin-bottom: 24px;
+        grid-row-gap: 24px;
+    }
+    .destination-item-half-two {
+        display: block;
+        column-gap: 0;
+    }
+    .destination-item-half-two .destination-single.item-banglades {
+        width: 100%;
+        float: none;
+        margin-bottom: 24px;
+    }
+    .destination-item-half-two .destination-single.item-bandarban {
+        width: 100%;
+        float: none;
+    }
+    .why-choose-blurb-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0;
+        grid-row-gap: 24px;
+    }
+    footer .footer-content {
+        padding: 50px 0;
+    }
+}
+@media all and (max-width: 980px) {
+    .deal-single-item {
+        padding-bottom: 20px;
+        padding-top: 220px;
+    }
+    .deal-single-content {
+        padding: 20px;
+    }
+    .newsletter-row .newsletter-left {
+        width: unset;
+        float: none;
+        padding: 20px;
+        margin-bottom: 24px;
+    }
+    .newsletter-row .newsletter-right {
+        width: 100%;
+        float: none;
+    }
+    .newsletter-row {
+        display: block;
+        column-gap: 0;
+    }
+    .newsletter-row .newsletter-right {
+        width: 100%;
+        float: none;
+        display: block;
+        height: 410px;
+    }
+}
