@@ -355,3 +355,61 @@ header#main-header {
     font-weight: 800;
     padding: 15px 0;
 }
+/* Newsletter Section */
+.newsletter-row {
+    display: flex;
+    column-gap: 24px;
+}
+.newsletter-row .newsletter-left {
+    width: 35%;
+    float: left;
+    padding: 50px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.newsletter-left h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.newsletter-left p {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.newsletter-left form input {
+    width: 100% !important;
+}
+.newsletter-left form input[type=text],
+.newsletter-left form input[type=email] {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05); 
+    outline: none !important;
+    border: none;
+    box-sizing: border-box;
+    padding: 15px;
+    color: #131318;
+    margin-bottom: 10px;
+}
+.newsletter-row .newsletter-right {
+    width: 65%;
+    float: left;
+    background-image: url(../images/newsletter-right.png);
+    border-radius: 16px;
+    position: relative;
+}
+.nwr-rotated-box {
+    padding: 20px;
+    border-radius: 16px;
+    background: #FF5400;
+    display: inline-block;
+    color: #FFF;
+    transform: rotate(-25deg);
+    position: absolute;
+    bottom: 45px;
+    right: 10px;
+}
+.nwr-rotated-box h3 {
+    font-size: 24px;
+    font-weight: 800;
+}
+/* Footer */
