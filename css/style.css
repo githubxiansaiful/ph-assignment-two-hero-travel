@@ -129,7 +129,7 @@ header#main-header {
     color: #fff;
     font-size: 18px;
 }
-form {
+.hero-section-content form {
     position: relative;
     max-width: 800px;
     margin: auto;
@@ -140,7 +140,7 @@ form {
 .form-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 24px;
+    column-gap: 10px;
     overflow: hidden;
 }
 .form-container select,
@@ -182,8 +182,9 @@ form {
 .our-popular-row ul li:last-child {
     margin-bottom: 0;
 }
-.our-popular-image img {
+.our-popular-image video {
     width: 100%;
+    border-radius: 16px;
 }
 /* Choose Your Destination */
 .our-destination-content h2 {
