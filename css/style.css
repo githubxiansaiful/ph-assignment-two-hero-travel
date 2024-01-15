@@ -53,7 +53,7 @@ a {
 }
 section {
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 /* Core CSS END */
 
@@ -152,4 +152,8 @@ form {
     padding-left: 15px;
     padding-right: 10px;
     box-sizing: border-box;
+}
+.form-container input.xs-btn-primary {
+    background-color: #FF5400;
+    color: #fff;
 }
