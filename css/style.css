@@ -1,0 +1,155 @@
+/* Core CSS Started */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 500;
+}
+a {
+    text-decoration: none;
+    color: #FF5400;
+    display: inline-block;
+}
+.xs-btn-primary {
+    min-width: 175px;
+    background: #FF5400;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 0;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 0;
+}
+.xs-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.1;
+}
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.container {
+    width: 90%;
+    max-width: 1170px;
+    margin: auto;
+    position: relative;
+}
+section {
+    position: relative;
+    margin-bottom: 100px;
+}
+/* Core CSS END */
+
+/* Header CSS */
+header#main-header {
+    padding: 20px 0;
+}
+#xs-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.xs-menu {
+    display: flex;
+}
+.nav-list {
+    padding: 0;
+    list-style: none;
+}
+.nav-list li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.nav-list li:last-child {
+    margin-right: 0 !important;
+}
+.xs-navigation {
+    float: right;
+}
+.nav-list li a {
+    color: #131318;
+}
+.nav-list li.current-menu a {
+    color: #FF5400;
+    font-weight: 700;
+}
+/* Hero Section */
+.hero-section .container {
+    position: relative;
+    background-image: url(../images/hero-bg.png);
+    border-radius: 16px;
+}
+.hero-section .container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
+.hero-section .hero-section-content {
+    z-index: 9999;
+    position: relative;
+    padding: 100px 0;
+}
+.hero-section-content h1 {
+    font-size: 64px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.1;
+    padding-bottom: 30px;
+}
+.hero-section-content p {
+    margin: auto;
+    max-width: 670px;
+    color: #fff;
+    font-size: 18px;
+}
+form {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+}
+.form-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 24px;
+    overflow: hidden;
+}
+.form-container select,
+.form-container input {
+    border: none;
+    background: #fff;
+    border-radius: 8px;
+    outline: none;
+    height: 50px;
+    color: #131318;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
