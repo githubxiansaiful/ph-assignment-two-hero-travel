@@ -268,3 +268,29 @@ form {
 .destination-single.item-bandarban {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../images/bandarban.png), lightgray 50% / cover no-repeat;
 }
+/* Why Choose Us */
+.why-choose-blurb-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
+}
+.why-choose-single-blurb {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px;
+}
+.why-choose-single-blurb h3 {
+    color: #131318;
+    font-weight: bold;
+    line-height: 1.3em;
+    padding: 10px 0;
+    font-size: 24px;
+}
+.why-choose-blurb-container {
+    margin-bottom: 24px;
+}
+.why-choose-single-one {
+    max-width: 570px;
+    margin: auto;
+}
