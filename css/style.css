@@ -15,6 +15,9 @@ a {
     color: #FF5400;
     display: inline-block;
 }
+ul {
+    padding-left: 18px;
+}
 .xs-btn-primary {
     min-width: 175px;
     background: #FF5400;
@@ -156,4 +159,29 @@ form {
 .form-container input.xs-btn-primary {
     background-color: #FF5400;
     color: #fff;
+}
+/* Our Popular Tours */
+.our-popular-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+    align-items: center;
+}
+.our-popular-row h2 {
+    margin-bottom: 24px;
+}
+.our-popular-row p {
+    margin-bottom: 24px;
+}
+.our-popular-row ul {
+    margin-bottom: 24px;
+}
+.our-popular-row ul li {
+    margin-bottom: 10px;
+}
+.our-popular-row ul li:last-child {
+    margin-bottom: 0;
+}
+.our-popular-image img {
+    width: 100%;
 }
