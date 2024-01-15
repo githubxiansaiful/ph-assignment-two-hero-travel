@@ -287,6 +287,10 @@ header#main-header {
     background: rgba(251, 181, 99, 0.05);
     padding: 30px;
 }
+.why-choose-single-blurb.aqua-bg {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
 .why-choose-single-blurb h3 {
     color: #131318;
     font-weight: bold;
