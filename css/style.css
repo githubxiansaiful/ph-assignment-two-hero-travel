@@ -35,6 +35,10 @@ ul {
     font-size: 18px;
     font-weight: 600;
     line-height: 0;
+    transition: .3s;
+}
+.xs-btn-primary:hover {
+    background: #000 !important;
 }
 .xs-title {
     color: #131318;
@@ -207,6 +211,7 @@ header#main-header {
     font-size: 28px;
     color: #fff;
     font-weight: bold;
+    z-index: 99;
 }
 .destination-item-one {
     display: grid;
@@ -227,6 +232,23 @@ header#main-header {
     background-repeat: no-repeat;
     background-size: cover !important;
     background-position: center;
+    transition: .3s;
+    cursor: pointer;
+}
+.destination-single:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    border-radius: 16px;
+    opacity: 0;
+    transition: .3s;
+}
+.destination-single:hover:before {
+    opacity: .3;
 }
 .destination-single.item-maldives {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../images/maldives-img.png), lightgray 50% / cover no-repeat;
@@ -420,6 +442,13 @@ header#main-header {
     position: absolute;
     bottom: 45px;
     right: 10px;
+    transition: .3s;
+}
+.newsletter-right {
+    transition: .3s;
+}
+.newsletter-right:hover .nwr-rotated-box {
+    transform: rotate(0);
 }
 .nwr-rotated-box h3 {
     font-size: 24px;
