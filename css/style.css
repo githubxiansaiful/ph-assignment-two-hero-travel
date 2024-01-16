@@ -172,6 +172,11 @@ header#main-header {
     background-color: #FF5400;
     color: #fff;
 }
+.form-input .xs-btn-primary.icon-btn {
+    width: 100%;
+    padding-top: 15.5px;
+    padding-bottom: 15.5px;
+}
 /* Our Popular Tours */
 .our-popular-row {
     display: grid;
