@@ -109,6 +109,8 @@ header#main-header {
     position: relative;
     background-image: url(../images/hero-bg.png);
     border-radius: 16px;
+    background-size: cover;
+    background-position: center;
 }
 .hero-section .container::before {
     content: "";
