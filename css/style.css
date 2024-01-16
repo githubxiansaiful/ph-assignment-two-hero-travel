@@ -488,3 +488,30 @@ footer .footer-content p {
 .footer-copyright {
     padding: 20px 0;
 }
+/* How it's work Section */
+.how-its-work {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+}
+.xs-how-its-work-content h3 {
+    color: #131318;
+    font-weight: bold;
+    line-height: 1.3em;
+    padding: 10px 0;
+    font-size: 24px;
+}
+.xs-icon-box img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+.how-it-single {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    border-radius: 16px;
+    padding: 30px 20px;
+    background: rgba(41, 206, 246, 0.05);
+}
+.how-it-single:nth-child(2) {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background:rgba(251, 181, 99, 0.05);
+}

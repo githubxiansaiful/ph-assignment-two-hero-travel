@@ -82,6 +82,12 @@
     .xs-title {
         font-size: 28px;
     }
+    .how-its-work {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0;
+        grid-row-gap: 24px;
+    }
 }
 @media all and (max-width: 980px) {
     .deal-single-item {
